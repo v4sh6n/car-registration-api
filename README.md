@@ -14,4 +14,3 @@ Git: Version control system.
 Project Structure:
 Model: Represents the data (Car entity).
 Repository: Handles database interactions.
-git add README.md
