@@ -38,7 +38,7 @@ public class CarController {
         car.setModel(carDetails.getModel());
         car.setPlateNumber(carDetails.getPlateNumber());
         car.setColor(carDetails.getColor());
-        car.setYear(carDetails.getYear());      
+        car.setManufactureYear(carDetails.getManufactureYear());
 
         Car updatedCar = carRepository.save(car);   
         return ResponseEntity.ok(updatedCar);

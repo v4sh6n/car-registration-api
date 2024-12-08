@@ -17,8 +17,12 @@ public interface CarRepository extends JpaRepository<Car, Long> {
     java.util.List<Car> findByModel(String model);
     
     // Find cars by year
-    java.util.List<Car> findByYear(int year);
-    
+    java.util.List<Car> findByManufactureYear(int manufactureYear);
+
+    // Actualiza el método para usar "manufactureYear"
+    java.util.List<Car> findByManufactureYearGreaterThan(int manufactureYear);
+
+
     // Find cars by plate number
     Car findByPlateNumber(String plateNumber);
     
@@ -29,6 +33,6 @@ public interface CarRepository extends JpaRepository<Car, Long> {
     java.util.List<Car> findByBrandAndModel(String brand, String model);
     
     // Find cars by year greater than
-    java.util.List<Car> findByYearGreaterThan(int year);
+    //java.util.List<Car> findByYearGreaterThan(int year);
 }
 
