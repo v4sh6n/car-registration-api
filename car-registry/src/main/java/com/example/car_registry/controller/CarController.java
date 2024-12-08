@@ -40,7 +40,7 @@ public class CarController {
         car.setColor(carDetails.getColor());
         car.setYear(carDetails.getYear());      
 
-        Car updatedCar = carRepository.save(car);
+        Car updatedCar = carRepository.save(car);   
         return ResponseEntity.ok(updatedCar);
     }
 
