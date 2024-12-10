@@ -34,3 +34,5 @@ The file includes 20 entries with a variety of:
 - Unique license plates.
 
 Feel free to use or modify this script to suit your specific development needs.
+### Disclaimer
+The license plates, vehicle data, and other information provided in this repository are entirely fictional. They are intended for educational and demonstration purposes only. Any resemblance to actual license plates, vehicles, or real-world data is purely coincidental.

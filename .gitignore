@@ -2,3 +2,4 @@
 .vscode/launch.json
 data/db.mv.db
 data/db.trace.db
+car-registry/data/db.mv.db
