@@ -14,3 +14,23 @@ Git: Version control system.
 Project Structure:
 Model: Represents the data (Car entity).
 Repository: Handles database interactions.
+
+## Database Initialization
+
+The [`data.sql`](src/main/resources/data.sql) file contains an SQL script that initializes the `car` table with 20 example vehicles. This script is automatically executed when the application starts, thanks to the default Spring Boot configuration, which loads the `schema.sql` and `data.sql` files into the H2 database.
+
+### Purpose of the Script
+
+- Populate the database with sample data during development.
+- Facilitate testing and validation of the system without requiring manual data entry.
+- Ensure the database contains initial records to test queries and endpoints.
+
+### Script Content
+
+The file includes 20 entries with a variety of:
+- Brands (e.g., Toyota, Ford, Honda).
+- Models (e.g., Corolla, Focus, Civic).
+- Colors (e.g., Blue, Red, Black).
+- Unique license plates.
+
+Feel free to use or modify this script to suit your specific development needs.
